@@ -25,5 +25,5 @@
  
   -Read assigned papers and git doc
   
-  -Come up with equvivalent architecture, Stefan and Gabriel will do **WA**, Said and Steffan **IOT**
+  -Come up with equvivalent architecture, Stefan and Gabriel will do **WA**, Said and Steffen **IOT**
 
