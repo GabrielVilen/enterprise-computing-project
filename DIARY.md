@@ -1,9 +1,10 @@
-# Diary
+# Diary for EC assignment
 
 # 2017-01-04:
 
-  Assignment lecture with Marco, overview and introduction about assignments.
-  Group meeting and assigned read tasks:
+  -Assignment lecture with Marco, overview and introduction about assignments.
+  
+  -Group meeting and assigned read tasks:
   
   • STEFAN - AWS Serverless Multi-Tier Architectures, Werner Vogels (AWS CTO):
     http://www.allthingsdistributed.com/2016/06/aws-lambda-serverlessreference-architectures.html 
@@ -19,4 +20,10 @@
   
   • STEFFEN - Microservices without Servers, Tim Wagner (AWS Lambda): 
     https://aws.amazon.com/blogs/compute/microservices-without-the-servers/ 
+    
+ Until next meeting, *16:00 2017-01-10*:
+ 
+  -Read assigned papers and git doc
+  
+  -Come up with equvivalent architecture, Stefan and Gabriel will do **WA**, Said and Steffan **IOT**
 
