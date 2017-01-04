@@ -1,6 +1,7 @@
 # Diary
 
-2017-01-04:
+# 2017-01-04:
+
   Assignment lecture with Marco, overview and introduction about assignments.
   Group meeting and assigned read tasks:
   
