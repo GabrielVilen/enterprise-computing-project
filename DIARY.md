@@ -13,7 +13,7 @@
     http://martinfowler.com/articles/serverless.html
   
   • **SAID** - The Serverless Start-Up - Down With Servers!, High Scalability Blog:
-    http://highscalability.com/blog/2015/12/7/the-serverless-start-up-down-withservers.html
+    http://highscalability.com/blog/2015/12/7/the-serverless-start-up-down-with-servers.html
   
   • **GABRIEL** - AWS Serverless Multi-Tier Architectures, AWS Whitepaper:
     https://d0.awsstatic.com/whitepapers/AWS_Serverless_MultiTier_Architectures.pdf
