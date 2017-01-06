@@ -2,9 +2,9 @@
 
 # 2017-01-04:
 
-  -Assignment lecture with Marco, overview and introduction about assignments.
+  - Assignment lecture with Marco, overview and introduction about assignments.
   
-  -Group meeting and assigned read tasks:
+  - Group meeting and assigned read tasks:
   
   • **STEFAN** - AWS Serverless Multi-Tier Architectures, Werner Vogels (AWS CTO):
     http://www.allthingsdistributed.com/2016/06/aws-lambda-serverlessreference-architectures.html 
