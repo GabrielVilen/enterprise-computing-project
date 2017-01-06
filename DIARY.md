@@ -23,7 +23,7 @@
     
  Until next meeting, *16:00 2017-01-10*:
  
-  -Read assigned papers and git doc
+  - Read assigned papers and git doc
   
-  -Come up with equvivalent architecture, Stefan and Gabriel will do **WA**, Said and Steffen **IOT**
+  - Come up with equvivalent architecture, Stefan and Gabriel will do **WA**, Said and Steffen **IOT**
 
