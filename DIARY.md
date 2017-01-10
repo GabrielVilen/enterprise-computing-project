@@ -40,5 +40,5 @@
   - **Stefan:** Start with Google Function #1
   - **Everyone**: Get more familiar with node.js and the Google Cloud Platform tools!
 
-Next meeting tomorrow, *10:00 2017-01-11*
+Next meeting tomorrow, *12:00 2017-01-11*
   
