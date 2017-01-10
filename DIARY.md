@@ -27,3 +27,18 @@
   
   - Come up with equvivalent architecture, Stefan and Gabriel will do **WA**, Said and Steffen **IOT**
 
+
+# 2017-01-10:
+**Meeting:**
+  - Decided on WA implemented in Google Cloud Platform https://github.com/awslabs/lambda-refarch-webapp 
+  - Looked at free SMS api, such as nexmo: https://docs.nexmo.com/
+  - Decided on node.js and passing JSON data
+  - **Work assignment**:
+  - **Gabriel:** Start with SMS api (nexmo)
+  - **Sayid:**  Start with static website in Google Cloud Storage Standard
+  - **Steffen:** Start with streaming and aggregation from Google Cloud Datastore <-> Google Function #2 
+  - **Stefan:** Start with Google Function #1
+  - **Everyone**: Get more familiar with node.js and the Google Cloud Platform tools!
+
+Next meeting tomorrow, *10:00 2017-01-11*
+  
