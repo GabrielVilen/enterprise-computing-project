@@ -40,3 +40,9 @@ Work assignment:
 - Everyone: Get more familiar with node.js and the Google Cloud Platform tools!
 
 Next meeting tomorrow, 12:00 2017-01-11
+
+##2017-01-13:
+
+Decided on switching from Google Cloud Platform to IBM Blumix due to Lambda (Functions) in Google Cloud being in alfa state which requiered invite to be able to use it. Reason for choosing IBM over Azure was that we found no matching API Gateway in Azure (API Connect).  
+
+
