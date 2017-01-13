@@ -43,6 +43,8 @@ Next meeting tomorrow, 12:00 2017-01-11
 
 ##2017-01-13:
 
-Decided on switching from Google Cloud Platform to IBM Blumix due to Lambda (Functions) in Google Cloud being in alfa state which requiered invite to be able to use it. Reason for choosing IBM over Azure was that we found no matching API Gateway in Azure (API Connect).  
+- Decided on switching from Google Cloud Platform to IBM Blumix due to Lambda (Functions) in Google Cloud being in alfa state which requiered invite to be able to use it. Reason for choosing IBM over Azure was that we found no matching API Gateway in Azure (API Connect). 
+- Realised that Nexmo sms service are not free for incoming messages so decided to switching to using email instead of sms for votes (got OK from Marco for this)
+- Signed up and looking at email api service Mailgun (www.mailgun.com)
 
 
