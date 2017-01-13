@@ -3,7 +3,7 @@ Can be found on Google docs: https://goo.gl/hIhdNB
 
 # Diary for EC assignment
 
-**2017-01-04:**
+##2017-01-04:
 
 Assignment lecture with Marco, overview and introduction about assignments.
 
@@ -24,7 +24,7 @@ Until next meeting, 16:00 2017-01-10:
 - Read assigned papers and git doc
 - Come up with equvivalent architecture, Stefan and Gabriel will do WA, Said and Steffen IOT
 
-**2017-01-10:**
+##2017-01-10:
 
 Meeting:
 
