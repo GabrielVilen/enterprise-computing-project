@@ -52,7 +52,7 @@ Next meeting tomorrow, 12:00 2017-01-11
 - Started the implementation in IBM Bluemix platform:
   - Deployed vote dashboard is available at https://ec-vote-dashboard.mybluemix.net using Cloud Foundry
   - Created the databases to store the votes in Cloudant NoSQL 
-  - Deployed the API to retrieve the votes from the emails and send them to the database
+  - Deployed the API to retrieve the votes from the emails and send them to the database https://api.us.apiconnect.ibmcloud.com/tu-berlin-assignment/ec
   - Started working on OpenWhisk for triggering functions when a new vote is added to the database
 - We had to switch from the UK region to the US-South one, due to the fact that OpenWhisk functions are only available in US-South region 
 
