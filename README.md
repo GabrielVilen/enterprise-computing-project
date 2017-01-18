@@ -49,10 +49,10 @@ Next meeting tomorrow, 12:00 2017-01-11
 
 ##2017-01-18:
 
-- Started the implementation in IBM Bluemix platform
+- Started the implementation in IBM Bluemix platform:
   - Deployed vote dashboard is available at https://ec-vote-dashboard.mybluemix.net using Cloud Foundry
   - Created the databases to store the votes in Cloudant NoSQL 
   - Deployed the API to retrieve the votes from the emails and send them to the database
   - Started working on OpenWhisk for triggering functions when a new vote is added to the database
 
-
+Next meeting next week, 16:00 2017-01-24
