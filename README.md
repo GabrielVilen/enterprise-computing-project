@@ -56,4 +56,4 @@ Next meeting tomorrow, 12:00 2017-01-11
   - Started working on OpenWhisk for triggering functions when a new vote is added to the database
 - We had to switch from the UK region to the US-South one, due to the fact that OpenWhisk functions are only available in US-South region 
 
-Next meeting next week, 16:00 2017-01-24
+Next meeting 16:00 2017-01-24
