@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: ec-vote-dashboard
+  name: vote-dashboard
+  memory: 64M
+  stack: cflinuxfs2
