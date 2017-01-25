@@ -1,6 +1,9 @@
 # Design document
 Can be found on Google docs: https://goo.gl/hIhdNB
 
+## Current design
+![alt tag](https://raw.githubusercontent.com/Gabbe1993/EC_Assignment/master/IBM%20implementation%20WA.png?token=AIeZDIC9DOzDpoaAI_l0oHh-t36PmffAks5Yke40wA%3D%3D)
+
 # Diary for EC assignment
 
 ##2017-01-04:
