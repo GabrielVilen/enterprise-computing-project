@@ -64,3 +64,8 @@ Next meeting 16:00 2017-01-24, postponed for 12:00 2017-01-25
   - Exposed the OpenWhisk function as a public REST API. (Had problems with this due to lack of documentation of how to expose the function without requried authentification (which means we could not forward directly from our MailGun inbox)).   
   - Succesfully connected to the public openwhisk function with a simple echo test POST function (tested with Postman)
   - Explored more about how to connect OpenWhisk with a db (did not connect yet)
+  
+##2017-01-24:
+- Implemented Openwhisk function 1 which processes the received votes from the IBM API connect and adds them to the Cloudant database
+- Implemented Openwhisk function 2 which recalculates the total votes each time a new vote is added
+- Exploring IBM Mobile Push Notifications in order to trigger an from Openwhisk function 2 to update on the frontend when a new vote is added 
