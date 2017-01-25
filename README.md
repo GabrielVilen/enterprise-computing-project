@@ -61,6 +61,6 @@ Next meeting 16:00 2017-01-24, postponed for 12:00 2017-01-25
 ##2017-01-23:
 
 - Started working and exploring IBM OpenWhisk. 
-  - Exposed the OpenWhisk function as a publc REST API. (Had problems with this due to lack of documentation of how to expose the function without requried authentification (which means we could not forward directly from our MailGun inbox)).   
+  - Exposed the OpenWhisk function as a public REST API. (Had problems with this due to lack of documentation of how to expose the function without requried authentification (which means we could not forward directly from our MailGun inbox)).   
   - Succesfully connected to the public openwhisk function with a simple echo test POST function (tested with Postman)
   - Explored more about how to connect OpenWhisk with a db (did not connect yet)
