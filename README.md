@@ -65,7 +65,24 @@ Next meeting 16:00 2017-01-24, postponed for 12:00 2017-01-25
   - Succesfully connected to the public openwhisk function with a simple echo test POST function (tested with Postman)
   - Explored more about how to connect OpenWhisk with a db (did not connect yet)
   
-##2017-01-24:
+##2017-01-25:
+- Changed the structure of the Cloudant databases :
+  - Each vote is added as a new document in the "voteapp" database, for example :
+  ```
+  {
+    "_id": "bcaf2aad5ce386405e9bebe71bff5412",
+    "_rev": "1-9e503ddb74c94870ecd7da30b36e465f",
+    "vote": "red"
+  }
+  ```
+  - The votes are aggregated in the "voteapp-aggregates" database, each color has its own document, for example :
+  ```
+  {
+    "_id": "green",
+    "_rev": "3-1d2fd97974702a7c4c8c1c02bfe701f6",
+    "count": 2
+  }
+  ```
 - Implemented Openwhisk function 1 which processes the received votes from the IBM API connect and adds them to the Cloudant database
-- Implemented Openwhisk function 2 which recalculates the total votes each time a new vote is added
+- Implemented Openwhisk function 2 which recalculates the total votes each time a new vote is added to the database
 - Exploring IBM Mobile Push Notifications in order to trigger an from Openwhisk function 2 to update on the frontend when a new vote is added 
