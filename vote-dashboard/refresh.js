@@ -3,12 +3,12 @@ var ctx = $("#graph").get(0).getContext("2d");
 
 /* Set the options for our chart */
 var options = { segmentShowStroke : false,
-			    animateScale: true,
-			    percentageInnerCutout : 50,
+		animateScale: true,
+		percentageInnerCutout : 50,
                 showToolTips: true,
                 tooltipEvents: ["mousemove", "touchstart", "touchmove"],
                 tooltipFontColor: "#fff",
-				animationEasing : 'easeOutCirc'
+		animationEasing : 'easeOutCirc'
               }
 
 /* Set the initial data */
