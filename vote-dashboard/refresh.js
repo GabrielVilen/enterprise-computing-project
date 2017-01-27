@@ -38,9 +38,10 @@ graph = new Chart(ctx).Doughnut(init, options);
 /* Makes a scan of the Cloudant database to retrieve the votes and update the chart */
 function getData() {
 	
-	var results;
+	/* This AJAX call retrieves all the documents in voteapp-aggregates database*/
+	
 	$.ajax({
-	  url: "https://2668c395-f5fb-4839-94f7-5a448e2cb674-bluemix.cloudant.com/voteapp-aggregates/ec-voteapp-aggregates",
+	  url: "https://a11abe30-08d5-4c0a-9b4e-33f546205378-bluemix.cloudant.com/voteapp-aggregates/_all_docs?include_docs=true",
 	  type: 'GET',
 	  dataType: 'json',
 	  contentType: 'text/plain',
@@ -50,11 +51,13 @@ function getData() {
 	  },
 	  success: function(data) {
 	  	/* Retrieving the number of votes for each color */
-	    results = data["results"];
-	    var redCount = results["RED"];
-	    var greenCount = results["GREEN"];
-	    var blueCount = results["BLUE"];
-	
+	   	
+	    var results = data["rows"];
+	    
+	    var blueCount = results[0]["doc"]["count"];
+	    var greenCount = results[1]["doc"]["count"];
+	    var redCount = results[2]["doc"]["count"];
+	    
 	    var data = [
 	      {
 	          value: redCount,
