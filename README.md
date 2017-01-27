@@ -86,3 +86,12 @@ Next meeting 16:00 2017-01-24, postponed for 12:00 2017-01-25
 - Implemented Openwhisk function 1 which processes the received votes from the IBM API connect and adds them to the Cloudant database
 - Implemented Openwhisk function 2 which recalculates the total votes each time a new vote is added to the database
 - Exploring IBM Mobile Push Notifications in order to trigger an from Openwhisk function 2 to update on the frontend when a new vote is added 
+
+##2017-01-26:
+ - After many tries realised that the mail service did not work, the mails were retrived by the API connect but not forwarded to the OpenWhisk function.  
+ - Created a simple vote website to send the clicked vote to the API via javascript XMLHttpRequest, did not work from localhost
+ - Deployed the vote website to IBMs hub.jazz.net, which resulted in only a few votes (~20%) being retrieved by OpenWhisk 
+ 
+##2017-01-27:
+ - Resolved the problem why our website did not work by tracing the messages via chromes event tracer, turned out it was due to the http calls from our libary (XMLHttpRequest) not sending properly and the messages were being blocked. 
+ - Switched to jQuery AJAX http calls, and it works, woohoo! :)
