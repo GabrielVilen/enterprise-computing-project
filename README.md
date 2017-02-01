@@ -95,3 +95,6 @@ Next meeting 16:00 2017-01-24, postponed for 12:00 2017-01-25
 ##2017-01-27:
  - Resolved the problem why our website did not work by tracing the messages via chromes event tracer, turned out it was due to the http calls from our libary (XMLHttpRequest) not sending properly and the messages were being blocked. 
  - Switched to jQuery AJAX http calls, and it works, woohoo! :)
+ 
+##2017-02-01:
+- Testing the possibility to use a WebSocket to update the Dashboard, unfortunately the results were not satisfying due to high latency issues (up to 13 seconds latency for message receiving) 
