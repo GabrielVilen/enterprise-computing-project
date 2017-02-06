@@ -1,3 +1,3 @@
 # Vote application
 
-Based on Material kit (http://demos.creative-tim.com/material-kit/index.html)
+A fully responsive website based on Material kit (http://demos.creative-tim.com/material-kit/index.html)
