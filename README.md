@@ -98,3 +98,6 @@ Next meeting 16:00 2017-01-24, postponed for 12:00 2017-01-25
  
 ##2017-02-01:
 - Testing the possibility to use a WebSocket to update the Dashboard, unfortunately the results were not satisfying due to high latency issues (up to 13 seconds latency for message receiving) 
+
+##2017-02-07
+- Final meeting, wrapping up presentation details and doing final testing
